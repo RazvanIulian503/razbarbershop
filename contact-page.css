@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-- Nav Bar --*/
+
+header {
+  background-color: #1a1c20;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 13px;
+}
+
+.header-btn {
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid white;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.logo-contact {
+    cursor: pointer;
+    width: 135px;
+    height: 40px;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.header-btn:hover {
+    background-color: transparent;
+    color: #cf0000;
+    border: 3px solid #cf0000;
+}
+
+/*-- Contact Page --*/
+
+.footer {
+    padding: 100px 0 20px;
+    background: #efefef;
+    position: relative;
+}
+
+.contact-text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 40px;
+    color: #ec0101;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-row {
+    width: 80%;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.footer-left,.footer-right {
+  flex-basis: 45%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-row h1 {
+  margin: 10px 0;
+}
+
+.footer-row p {
+    line-height: 35px;
+}
+
+.footer-img {
+    max-width: 370px;
+    width: 330px;
+    height: 430px;
+  opacity: 0.1;
+  position: absolute;
+  left: 49%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media h1{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+.social-media .fa{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #cf0000;
+    margin: 40px 5px 0;
+    color: #cf0000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-media .fa:hover {
+    background: #cf0000;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.social-media p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+}

@@ -1,0 +1,412 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*-- Nav Bar --*/
+
+header {
+	background-color: #1a1c20;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.nav-links {
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+  margin-top: 25px;
+  margin-right: 50px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 20px;
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-links a:hover, a:focus, a:active {
+	color: #cf0000;
+}
+
+/*-- Banner --*/
+
+.banner {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), #cf0000), url(https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+	width: 140px;
+	position: absolute;
+	top: 2%;
+	left: 4%; 
+}
+
+.banner-text {
+	text-align: center;
+	color: #fff;
+	padding-top: 190px;
+	cursor: pointer;
+}
+
+.banner-text h1 {
+	font-size: 115px;
+	font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.banner-text p {
+	font-size: 40px;
+	font-style: italic;
+}
+
+.banner-btn {
+	margin: 40px auto 0;
+	font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Pattaya', sans-serif;
+}
+
+.banner-btn a{
+	width: 200px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: #fff;
+	border: .5px solid white;
+	position: relative;
+	z-index: 1;
+}
+
+.banner-btn a span {
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: -1;
+	transition: 0.8s;
+}
+
+.banner-btn a:hover span {
+	width: 100%;
+}
+
+.banner-btn a:hover {
+	color: #000;
+}
+
+/*--sectiune de ce noi?--*/
+
+.button {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.buton1 {
+	color: #ff1e56;
+	background-color: white;
+	border: 3px solid black;
+	width: 550px;
+	height: 90px;
+	font-size: 2.5em;
+	border-radius: 20px;
+	transition-duration: 0.7s;
+}
+
+.buton1:hover {
+  background-color: #ff1e56;
+  color: white;
+}
+
+.de-ce-noi {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 40px;
+	margin-top: 60px;
+}
+
+.de-ce-noi h1 {
+	font-size: 30px;
+	color: #ec0101;
+	font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: bold;
+}
+
+.de-ce-noi img {
+  cursor: pointer;
+  margin: 30px;
+  margin-right: 50px;
+  transition: all 1s;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.de-ce-noi img:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+.motiv1 h1 {
+	padding-left: 65px;
+}
+
+.motiv2 h1 {
+	padding-left: 75px;
+}
+
+.motiv3 h1 {
+	padding-left: 40px;
+}
+
+/*-- Recenzii --*/
+
+.recenzie hr {
+	height: 6px;
+	background-color: #ff1e56;
+	margin-bottom: 100px;
+}
+
+.recenzie {
+	font-size: 35px;
+	color: #ff1e56;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Pattaya', sans-serif;
+	text-align: center;
+	padding: 70px;
+}
+
+.sir-recenzii {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+.coloana-recenzie {
+  flex-basis: 28%;
+  padding:  10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 20px 30px 6px #00968814;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.coloana-recenzie p {
+	font-size: 20px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Pattaya', sans-serif;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Pattaya', sans-serif;
+}
+
+.user-info h2 {
+	font-size: 10px;
+}
+
+.user-info small {
+	color: #009688;
+}
+
+.user img {
+	width: 40px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+.coloana-recenzie:hover {
+  transform: translateY(-7px);
+}
+
+/*-- Footer --*/
+
+.footer {
+	padding: 100px 0 20px;
+	background: #efefef;
+	position: relative;
+}
+
+.contact-text {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Pattaya', sans-serif;
+	font-size: 40px;
+	color: #ec0101;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.footer-row {
+	width: 80%;
+	margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Pattaya', sans-serif;
+}
+
+.footer-left,.footer-right {
+  flex-basis: 45%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.footer-right {
+	text-align: right;
+}
+
+.footer-row h1 {
+  margin: 10px 0;
+}
+
+.footer-row p {
+	line-height: 35px;
+}
+
+.footer-img {
+	max-width: 370px;
+	width: 330px;
+	height: 430px;
+  opacity: 0.1;
+  position: absolute;
+  left: 49%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.social-media {
+	text-align: center;
+}
+
+.social-media h1{
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Pattaya', sans-serif;
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+.social-media .fa{
+	text-align: center;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	border: 1px solid #cf0000;
+	margin: 40px 5px 0;
+	color: #cf0000;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.social-media .fa:hover {
+	background: #cf0000;
+	color: #fff;
+	transform: translateY(-7px);
+}
+
+.social-media p {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Pattaya', sans-serif;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+/*-- Versiune telefon --*/
+
+@media screen and (max-width: 770px){
+	.logo {
+		width: 90px;
+		height: 30px;
+	}
+	.nav-links li {
+		font-size: 13px;
+		margin-right: 7px;
+		margin-top: 20px;
+	}
+	.banner-text h1 {
+	font-size: 50px;
+	font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    }
+    .banner-text p {
+    padding-top: 15px;
+	font-size: 25px;
+	font-style: italic;
+    }
+    .banner-btn a {
+      display: block;
+      margin: 20px auto;
+    }
+    .buton1 {
+    	width: 250px;
+      font-size: 1.7em;
+    }
+    .de-ce-noi img {
+    	width: 300px;
+    	padding-left: 10px;
+    }
+    .motiv1 h1 {
+    	padding-left: 70px;
+    	font-size: 25px;
+    }
+
+    .motiv2 h1 {
+    	padding-left: 80px;
+    	font-size: 25px;
+    }
+
+    .motiv3 h1 {
+    	padding-left: 50px;
+    	font-size: 25px;
+    }
+    .coloana-recenzie {
+    	flex-basis: 100%;
+    }
+    .recenzie {
+    	font-size: 20px;
+    }
+    .footer-left, .footer-right {
+    	flex-basis: 100%;
+    	font-size: 13.5px;
+    }
+    .footer-img {
+	    max-width: 170px;
+	    width: 280px;
+	    height: 300px;
+	    opacity: 0.1;
+      position: absolute;
+      left: 49%;
+      top: 20%;
+      transform: translate(-50%, -50%);
+    }
+    .footer h1 {
+    	margin-top: 10px;
+    }
+    hr {
+    	width: 250px;
+    }
+}
